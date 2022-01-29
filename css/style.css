@@ -24,7 +24,7 @@ form {
 }
 
 form label {
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 form label, p {
@@ -56,14 +56,14 @@ button {
 	height: 40px;
 	width: 100px;
 	background-color: var(--main-color);
-	color: rgba(8, 7, 7, 0.486);
+	color: rgba(77, 43, 43, 0.486);
 	font-size: 1em;
 }
 
 .shadow {
-  -moz-box-shadow:    2px 2px 3px 3px rgb(204, 204, 204);
-  -webkit-box-shadow: 2px 2px 3px 3px rgb(7, 4, 4);
-  box-shadow:         2px 2px 3px 3px rgb(255, 255, 255);
+  -moz-box-shadow:    2px 2px 3px 3px #ccc;
+  -webkit-box-shadow: 2px 2px 3px 3px #ccc;
+  box-shadow:         2px 2px 3px 3px #ccc;
 }
 
 form input[type="text"]:focus, 
@@ -75,7 +75,7 @@ select:focus {
 
 button:active {
 	transform: translateY(2px) translateX(2px);
-	  -moz-box-shadow:    0px 0px 1px 1px rgb(202, 0, 0);
-	  -webkit-box-shadow: 0px 0px 1px 1px rgb(20, 5, 53);
+	  -moz-box-shadow:    0px 0px 1px 1px #ccc;
+	  -webkit-box-shadow: 0px 0px 1px 1px #ccc;
 	  box-shadow:         0px 0px 1px 1px #ccc;
 }
